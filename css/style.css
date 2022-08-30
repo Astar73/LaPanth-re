@@ -6,19 +6,9 @@ body {
 }
 a, button {
     transition: all .3s ease-in-out;
-    outline: none!important;
-}
-a:hover {
+    outline: none!important;    
     text-decoration: none;
     cursor: pointer;
-}
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("../img/pageload-spinner.gif") no-repeat center center;
 }
 .bloc {
     width: 100%;
@@ -50,19 +40,7 @@ a:hover {
 .bg-t-edge {
     background: top no-repeat;
 }
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-.texture-paper::before {
-    background: url("../img/texture-paper.png");
-    background-size: 280px 280px;
-}
+
 .b-parallax {
     background-attachment: fixed;
 }
