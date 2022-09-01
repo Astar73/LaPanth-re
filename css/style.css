@@ -62,7 +62,7 @@ a, button {
     color: rgba(0, 0, 0, .7);
 }
 .l-bloc .navbar a,.l-bloc .navbar-brand,.l-bloc a .icon-sm,.l-bloc a .icon-md,.l-bloc a .icon-lg,.l-bloc a .icon-xl,.l-bloc h1 a,.l-bloc h2 a,.l-bloc h3 a,.l-bloc h4 a,.l-bloc h5 a,.l-bloc h6 a,.l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: black;
 }
 .l-bloc .navbar a:hover,.l-bloc .navbar-brand:hover,.l-bloc a:hover .icon-sm,.l-bloc a:hover .icon-md,.l-bloc a:hover .icon-lg,.l-bloc a:hover .icon-xl,.l-bloc h1 a:hover,.l-bloc h2 a:hover,.l-bloc h3 a:hover,.l-bloc h4 a:hover,.l-bloc h5 a:hover,.l-bloc h6 a:hover,.l-bloc p a:hover {
     color: black;
@@ -235,10 +235,14 @@ button {
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
-.icon-md {
+.social .icon-md {
     font-size: 30px!important;
-    color: white;
+    color: black;
     font-weight: bold;
+}
+.icon-md:hover {
+    color: white;
+    font-weight: bolder;
 }
 .icon-lg {
     font-size: 60px!important;
@@ -377,7 +381,7 @@ a[data-lightbox]:hover img {
 .social {
     max-width: 400px;
     margin: auto;
-    color: white;
+    color: black;
     font-weight: bolder;
     font-size: 1.3rem;
 }
@@ -388,7 +392,7 @@ a[data-lightbox]:hover img {
 h1,h2,h3,h4,h5,h6,p,label,.btn,a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757;
+    color: black;
 }
 p {
     font-size: 15px;
@@ -446,11 +450,12 @@ h4 {
     background-color: #f3976c;
 }
 .tc-white {
-    color: white!important;
+    color: black!important;
 }
 .btn-atomic-tangerine {
     background: #f3976c;
-    color: white!important;
+    font-weight: bold;
+    color: black!important;
 }
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
@@ -626,4 +631,9 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+}
+
+figure {
+    color: black;
+    font-size: 1.5rem;
 }
