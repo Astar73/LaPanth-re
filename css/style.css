@@ -62,7 +62,7 @@ a, button {
     color: rgba(0, 0, 0, .7);
 }
 .l-bloc .navbar a,.l-bloc .navbar-brand,.l-bloc a .icon-sm,.l-bloc a .icon-md,.l-bloc a .icon-lg,.l-bloc a .icon-xl,.l-bloc h1 a,.l-bloc h2 a,.l-bloc h3 a,.l-bloc h4 a,.l-bloc h5 a,.l-bloc h6 a,.l-bloc p a {
-    color: black;
+    color: rgba(0, 0, 0, .6);
 }
 .l-bloc .navbar a:hover,.l-bloc .navbar-brand:hover,.l-bloc a:hover .icon-sm,.l-bloc a:hover .icon-md,.l-bloc a:hover .icon-lg,.l-bloc a:hover .icon-xl,.l-bloc h1 a:hover,.l-bloc h2 a:hover,.l-bloc h3 a:hover,.l-bloc h4 a:hover,.l-bloc h5 a:hover,.l-bloc h6 a:hover,.l-bloc p a:hover {
     color: black;
@@ -450,7 +450,7 @@ h4 {
     background-color: #f3976c;
 }
 .tc-white {
-    color: black!important;
+    color: white!important;
 }
 .btn-atomic-tangerine {
     background: #f3976c;
